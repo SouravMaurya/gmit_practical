@@ -1,0 +1,35 @@
+class StringConstants {
+  static String no = "No";
+  static String yes = "Yes";
+  static String signIn = "Sign In";
+  static String login = "Login";
+  static String signup = "Signup";
+  static String page = "PAGE";
+  static String forContinue = " for Continue !";
+  static String userName = "Username";
+  static String firstName = "First Name";
+  static String lastName = "Last Name";
+  static String email = "Email";
+  static String phoneNumber = "Contact No.";
+  static String age = "Age";
+  static String password = "Password";
+  static String rememberMe = "Remember me";
+  static String forgotPassword = "Forgot Password?";
+  static String pleaseEnter = "Please enter ";
+  static String pleaseEnterValid = "Please enter valid ";
+  static String enter = "Enter ";
+  static String logout = "Logout";
+  static String welcomeBack = "Welcome Back";
+  static String helloThere = "Hello There";
+  static String createAccount = "Create Account";
+  static String dontHaveAccount = "Don’t Have Account?";
+  static String haveAccount = "Have Account?";
+  static String areYouSureLogout = "Are you sure you want to logout?";
+  static String somethingWentWrong = "Something Went Wrong";
+  static String loginSuccessFul = "Login Successful";
+  static String noProductFound = "No Product Found";
+  static String stock = "Stock";
+  static String brand = "Brand";
+  static String category = "Category";
+  static String search = "Search here...";
+}
