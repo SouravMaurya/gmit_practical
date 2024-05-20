@@ -60,7 +60,7 @@ class SignupBloc extends Bloc<SignupEvent, SignupState> {
   Future saveUserDataLocally(SignupResponse userDataModel) async {
     SharedPrefUtil sharedPrefUtil = SharedPrefUtil();
     sharedPrefUtil.saveString(SharedPrefUtil.keyUserName,
-        ("${userDataModel.firstName ?? ""} ${userDataModel.lastName ?? ""})"));
+        ("${userDataModel.firstName ?? ""} ${userDataModel.lastName ?? ""}"));
     sharedPrefUtil.saveString(
         SharedPrefUtil.keyUserProfile, (userDataModel.image ?? ""));
     sharedPrefUtil.saveBool(SharedPrefUtil.keyIsLoggedIn, true);
